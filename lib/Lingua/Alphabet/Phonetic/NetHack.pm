@@ -1,5 +1,5 @@
 
-# $Id: NetHack.pm,v 1.2 2007/08/04 17:54:26 Daddy Exp $
+# $Id: NetHack.pm,v 1.3 2007/08/08 12:56:18 Daddy Exp $
 
 =head1 NAME
 
@@ -14,6 +14,8 @@ all interaction should be done with an object of type Lingua::Alphabet::Phonetic
   my $oSpeaker = new Lingua::Alphabet::Phonetic('NetHack');
 
 =head1 NOTES
+
+The only characters without NetHack names are comma and digits 1 through 9!
 
 =head1 SEE ALSO
 
@@ -37,7 +39,7 @@ use strict;
 
 use base 'Lingua::Alphabet::Phonetic';
 our
-$VERSION = sprintf("%d.%02d", q$Revision: 1.2 $ =~ /(\d+)\.(\d+)/o);
+$VERSION = sprintf("%d.%02d", q$Revision: 1.3 $ =~ /(\d+)\.(\d+)/o);
 
 # First, the punctuation:
 my %hash = (

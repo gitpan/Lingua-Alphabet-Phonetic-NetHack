@@ -18,4 +18,4 @@ no_index:
 requires: 
   Lingua::Alphabet::Phonetic: 0
   perl: 5.004
-version: 1.02
+version: 1.03
