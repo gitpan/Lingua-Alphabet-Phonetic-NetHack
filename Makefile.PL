@@ -1,5 +1,5 @@
 
-# $Id: Makefile.PL,v 1.3 2007/08/04 18:06:00 Daddy Exp $
+# $Id: Makefile.PL,v 1.4 2008/03/06 04:02:43 Daddy Exp $
 
 use inc::Module::Install;
 
@@ -13,10 +13,11 @@ requires('Lingua::Alphabet::Phonetic');
 # Test::More is only needed for `make test`:
 test_requires('Test::More');
 test_requires('Test::Pod');
+test_requires('Test::Pod::Coverage');
 # I think there's a bug in Module::CoreList or something, because this
 # comes up missing on some platforms:
 test_requires('Test::Simple');
 
-&WriteAll;
+WriteAll;
 
 __END__
