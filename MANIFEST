@@ -13,5 +13,3 @@ MANIFEST			This list of files
 META.yml
 README
 t/nethack.t
-t/pod-coverage.t
-t/pod.t

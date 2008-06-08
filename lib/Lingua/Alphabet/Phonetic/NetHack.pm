@@ -1,5 +1,5 @@
 
-# $Id: NetHack.pm,v 1.4 2008/03/06 04:04:07 Daddy Exp $
+# $Id: NetHack.pm,v 1.5 2008/06/08 22:13:19 Martin Exp $
 
 =head1 NAME
 
@@ -29,6 +29,10 @@ Please tell the author if you find any!
 
 Martin Thurn (mthurn@cpan.org).
 
+=head1 LICENSE
+
+This software is released under the same license as Perl itself.
+
 =cut
 
 #####################################################################
@@ -39,7 +43,7 @@ use strict;
 
 use base 'Lingua::Alphabet::Phonetic';
 our
-$VERSION = sprintf("%d.%02d", q$Revision: 1.4 $ =~ /(\d+)\.(\d+)/o);
+$VERSION = sprintf("%d.%02d", q$Revision: 1.5 $ =~ /(\d+)\.(\d+)/o);
 
 # First, the punctuation:
 my %hash = (
