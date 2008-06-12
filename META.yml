@@ -7,7 +7,7 @@ build_requires:
   Test::Pod::Coverage: 0
   Test::Simple: 0
 distribution_type: module
-generated_by: 'Module::Install version 0.74'
+generated_by: 'Module::Install version 0.75'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -20,4 +20,4 @@ no_index:
 requires:
   Lingua::Alphabet::Phonetic: 0
   perl: 5.004
-version: 1.05
+version: 1.06

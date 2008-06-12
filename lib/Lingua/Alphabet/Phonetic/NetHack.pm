@@ -1,5 +1,5 @@
 
-# $Id: NetHack.pm,v 1.5 2008/06/08 22:13:19 Martin Exp $
+# $Id: NetHack.pm,v 1.6 2008/06/12 13:26:00 Martin Exp $
 
 =head1 NAME
 
@@ -7,7 +7,7 @@ Lingua::Alphabet::Phonetic::NetHack - map ASCII characters to names of NetHack i
 
 =head1 SYNOPSIS
 
-This is a specialization of Lingua::Alphabet::Phonetic.
+This is a specialization of L<Lingua::Alphabet::Phonetic>.
 You should not use this module directly;
 all interaction should be done with an object of type Lingua::Alphabet::Phonetic.
 
@@ -43,7 +43,7 @@ use strict;
 
 use base 'Lingua::Alphabet::Phonetic';
 our
-$VERSION = sprintf("%d.%02d", q$Revision: 1.5 $ =~ /(\d+)\.(\d+)/o);
+$VERSION = sprintf("%d.%02d", q$Revision: 1.6 $ =~ /(\d+)\.(\d+)/o);
 
 # First, the punctuation:
 my %hash = (
