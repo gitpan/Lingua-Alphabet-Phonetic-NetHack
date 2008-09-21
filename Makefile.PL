@@ -1,16 +1,12 @@
 
-# $Id: Makefile.PL,v 1.4 2008/03/06 04:02:43 Daddy Exp $
+# $Id: Makefile.PL,v 1.5 2008/09/21 13:37:11 Martin Exp $
 
 use inc::Module::Install;
 
-name('Lingua-Alphabet-Phonetic-NetHack');
-version_from('lib/Lingua/Alphabet/Phonetic/NetHack.pm');
-author('Martin Thurn <mthurn@cpan.org>');
-license('perl');
+all_from('lib/Lingua/Alphabet/Phonetic/NetHack.pm');
 requires( perl => '5.004' );
 
 requires('Lingua::Alphabet::Phonetic');
-# Test::More is only needed for `make test`:
 test_requires('Test::More');
 test_requires('Test::Pod');
 test_requires('Test::Pod::Coverage');

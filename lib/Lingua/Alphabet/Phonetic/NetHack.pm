@@ -1,5 +1,5 @@
 
-# $Id: NetHack.pm,v 1.6 2008/06/12 13:26:00 Martin Exp $
+# $Id: NetHack.pm,v 1.8 2008/09/21 13:37:22 Martin Exp $
 
 =head1 NAME
 
@@ -40,10 +40,11 @@ This software is released under the same license as Perl itself.
 package Lingua::Alphabet::Phonetic::NetHack;
 
 use strict;
+use warnings;
 
 use base 'Lingua::Alphabet::Phonetic';
 our
-$VERSION = sprintf("%d.%02d", q$Revision: 1.6 $ =~ /(\d+)\.(\d+)/o);
+$VERSION = sprintf("%d.%02d", q$Revision: 1.8 $ =~ /(\d+)\.(\d+)/o);
 
 # First, the punctuation:
 my %hash = (
@@ -163,4 +164,3 @@ sub _name_of_letter
 1;
 
 __END__
-
